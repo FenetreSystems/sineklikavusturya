@@ -9,18 +9,20 @@ import UsageAreas from "./components/UsageAreas";
 import MaterialQuality from "./components/MaterialQuality";
 import ColorOptions from "./components/ColorOptions";
 import ProjectProduction from "./components/ProjectProduction";
-import Dealership from "./components/Dealership";
 import AustriaCities from "./components/AustriaCities";
-import AustriaSellers from "./components/AustriaSellers";
-import NeighborCountries from "./components/NeighborCountries";
-import CustomerReviews from "./components/CustomerReviews";
-import PriceFactors from "./components/PriceFactors";
-import FAQ from "./components/FAQ";
-import Corporate from "./components/Corporate";
-import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
 import MobileBottomBar from "./components/MobileBottomBar";
 import SchemaJsonLd from "./components/SchemaJsonLd";
+import dynamic from 'next/dynamic';
+
+const Dealership = dynamic(() => import('./components/Dealership'), { loading: () => <div className="py-20">Yükleniyor...</div> });
+const AustriaSellers = dynamic(() => import('./components/AustriaSellers'), { loading: () => <div className="py-20">Yükleniyor...</div> });
+const NeighborCountries = dynamic(() => import('./components/NeighborCountries'), { loading: () => <div className="py-20">Yükleniyor...</div> });
+const CustomerReviews = dynamic(() => import('./components/CustomerReviews'), { loading: () => <div className="py-20">Yükleniyor...</div> });
+const PriceFactors = dynamic(() => import('./components/PriceFactors'), { loading: () => <div className="py-20">Yükleniyor...</div> });
+const FAQ = dynamic(() => import('./components/FAQ'), { loading: () => <div className="py-20">Yükleniyor...</div> });
+const Corporate = dynamic(() => import('./components/Corporate'), { loading: () => <div className="py-20">Yükleniyor...</div> });
+const FinalCTA = dynamic(() => import('./components/FinalCTA'), { loading: () => <div className="py-20">Yükleniyor...</div> });
 
 export default function Home() {
   return (
