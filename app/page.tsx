@@ -11,6 +11,8 @@ import ColorOptions from "./components/ColorOptions";
 import ProjectProduction from "./components/ProjectProduction";
 import Dealership from "./components/Dealership";
 import AustriaCities from "./components/AustriaCities";
+import AustriaSellers from "./components/AustriaSellers";
+import NeighborCountries from "./components/NeighborCountries";
 import CustomerReviews from "./components/CustomerReviews";
 import PriceFactors from "./components/PriceFactors";
 import FAQ from "./components/FAQ";
@@ -37,6 +39,8 @@ export default function Home() {
       <ProjectProduction />
       <Dealership />
       <AustriaCities />
+      <AustriaSellers />
+      <NeighborCountries />
       <CustomerReviews />
       <PriceFactors />
       <FAQ />

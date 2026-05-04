@@ -33,7 +33,7 @@ export default function Dealership() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-[#404e5e] via-[#354252] to-[#2d3a47] text-white">
+    <section id="dealership" className="py-20 bg-gradient-to-br from-[#404e5e] via-[#354252] to-[#2d3a47] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 bg-[#83bd81]/20 rounded-full border border-[#83bd81]/30 mb-6">

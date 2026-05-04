@@ -1,6 +1,6 @@
 export default function FinalCTA() {
   return (
-    <section className="py-20 bg-gradient-to-br from-[#83bd81] to-[#72a870]">
+    <section id="contact" className="py-20 bg-gradient-to-br from-[#83bd81] to-[#72a870]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-[#404e5e] mb-6">
           Hemen Sipariş Verin
