@@ -4,43 +4,37 @@ export default function AustriaSellers() {
       company: "Fenster & Türen Meister",
       location: "Viyana",
       description: "Avusturya'nın en büyük pencere ve kapı uzmanları. 25 yıllık deneyim. Sineklik montajı profesyonel ekiple.",
-      services: ["Montaj", "Servis", "Yedek Parça"],
-      phone: "+43 1 2345678"
+      services: ["Montaj", "Servis", "Yedek Parça"]
     },
     {
       company: "Insektenschutz Austria",
       location: "Graz",
       description: "Sadece sineklik sistemleri üzerine uzmanlaşmış firma. Plise ve zip sistemler konusunda lider.",
-      services: ["Sineklik", "Plise", "Zip Sistem"],
-      phone: "+43 316 123456"
+      services: ["Sineklik", "Plise", "Zip Sistem"]
     },
     {
       company: "Bauzentrum Salzburg",
       location: "Salzburg",
       description: "İnşaat malzemeleri ve sineklik sistemleri. Proje bazlı büyük işler için ideal partner.",
-      services: ["Proje", "Toplu Satış", "Montaj"],
-      phone: "+43 662 987654"
+      services: ["Proje", "Toplu Satış", "Montaj"]
     },
     {
       company: "Fensterwerk Innsbruck",
       location: "Innsbruck",
       description: "Tirol bölgesinin en güvenilir sineklik tedarikçisi. Turistik oteller için özel çözümler.",
-      services: ["Otel Proje", "Montaj", "Bakım"],
-      phone: "+43 512 456789"
+      services: ["Otel Proje", "Montaj", "Bakım"]
     },
     {
       company: "Haustech Linz",
       location: "Linz",
       description: "Yüksek teknolojik sineklik sistemleri. Motorlu ve akıllı çözümler uzmanı.",
-      services: ["Motorlu Sistem", "Akıllı Kontrol", "Proje"],
-      phone: "+43 732 789012"
+      services: ["Motorlu Sistem", "Akıllı Kontrol", "Proje"]
     },
     {
       company: "Fensterprofi Klagenfurt",
       location: "Klagenfurt",
       description: "Kärnten bölgesinin sineklik lideri. Özel ölçü üretim ve kurulum.",
-      services: ["Özel Üretim", "Kurulum", "Servis"],
-      phone: "+43 463 345678"
+      services: ["Özel Üretim", "Kurulum", "Servis"]
     }
   ];
 
@@ -85,11 +79,11 @@ export default function AustriaSellers() {
                   ))}
                 </div>
               </div>
-              <a href={`tel:${seller.phone}`} className="inline-flex items-center text-[#83bd81] hover:text-white transition-colors">
+              <a href="https://wa.me/905403363873" className="inline-flex items-center text-[#83bd81] hover:text-white transition-colors">
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                {seller.phone}
+                WhatsApp ile İletişim
               </a>
             </div>
           ))}
